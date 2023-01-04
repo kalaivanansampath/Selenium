@@ -1,59 +1,42 @@
 package com.List;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Set;
-import java.util.TreeSet;
 
-public class CollectionsPresentOnlyOnce {
-
-	public void PresentOnce(String[] arr, int k) {
-
-		Set<String> setData = new LinkedHashSet<String>();
-		Set<String> setData1 = new LinkedHashSet<String>();
-		for (int i = 0; i < arr.length; i++) {
-			if (!(setData.add(arr[i]))) {
-				setData1.add(arr[i]);
-			}
-		}
-
-		List<String> listData = new ArrayList<String>(setData);
-		List<String> listData1 = new ArrayList<String>(setData1);
-
-		for (int j = 0; j < listData1.size(); j++) {
-			for (int l = 0; l < listData.size(); l++) {
-				if (listData1.get(j) == listData.get(l)) {
-					listData.remove(l);
-				}
-			}
-		}
-		if (listData.size() < k) {
-			System.out.println("Empty Data");
-		} else {
-			System.out.println(listData.get(k - 1));
-		}
-	}
+public class CollectionsCharactersUniqueStrings {
+	/*
+	 * Given a string array words, return an array of all characters that show up in
+	 * all strings within the words (including duplicates). You may return the
+	 * answer in any order. Example 1: Input: words = ["bella","label","roller"]
+	 * Output: ["e","l","l"]
+	 */
 
 	public static void main(String[] args) {
+		String[] str = { "bella", "label", "roller" };
 
-		/*
-		 * Java Problem (18/20)* A distinct string is a string that is present only once
-		 * in an array. Given an array of strings arr, and an integer k, return the kth
-		 * distinct string present in arr. If there are fewer than k distinct strings,
-		 * return an empty string "". Note that the strings are considered in the order
-		 * in which they appear in the array. Example 1: Input: arr =
-		 * ["d","b","c","b","c","a"], k = 2 Output: "a" Explanation: The only distinct
-		 * strings in arr are "d" and "a". "d" appears 1st, so it is the 1st distinct
-		 * string. "a" appears 2nd, so it is the 2nd distinct string.
-		 */
-
-		String[] arr = { "d", "b", "c", "b", "c", "a" };
-		int k = 2;
-		CollectionsPresentOnlyOnce obj = new CollectionsPresentOnlyOnce();
-		obj.PresentOnce(arr, k);
-
+		List<String> list2 = new ArrayList<String>();;
+		List<String> list = new ArrayList<String>();
+		for (int i = 0; i < str.length; i++) {
+			list.add(str[i]);
+		}
+		
+		char[] charArray = list.get(0).toCharArray();
+		
+		for (int i = 1; i < list.size(); i++) {
+			for (int j = 0; j < charArray.length; j++) {
+				String s = String.valueOf(charArray[j]);
+				
+				if (list.get(i).contains(s)) {
+					String replaceFirst = list.get(i).replaceFirst(s, "");
+					list.set(i, replaceFirst);
+					
+					if (list.get(i + 1).contains(s)) {
+						String replaceSecond = list.get(i + 1).replaceFirst(s, "");
+						list.set(i + 1, replaceSecond);
+						list2.add(s);
+					}
+				}
+			}
+		}System.out.println(list2);
 	}
-
 }
