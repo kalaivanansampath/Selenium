@@ -8,21 +8,8 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class CollectionsPresentOnlyOnce {
-	public static void main(String[] args) {
 
-		/*
-		 * Java Problem (18/20)* A distinct string is a string that is present only once
-		 * in an array. Given an array of strings arr, and an integer k, return the kth
-		 * distinct string present in arr. If there are fewer than k distinct strings,
-		 * return an empty string "". Note that the strings are considered in the order
-		 * in which they appear in the array. Example 1: Input: arr =
-		 * ["d","b","c","b","c","a"], k = 2 Output: "a" Explanation: The only distinct
-		 * strings in arr are "d" and "a". "d" appears 1st, so it is the 1st distinct
-		 * string. "a" appears 2nd, so it is the 2nd distinct string.
-		 */
-
-		String[] arr = { "d", "b", "c", "b", "c", "a" };
-		int k = 2;
+	public void PresentOnce(String[] arr, int k) {
 
 		Set<String> setData = new LinkedHashSet<String>();
 		Set<String> setData1 = new LinkedHashSet<String>();
@@ -47,6 +34,26 @@ public class CollectionsPresentOnlyOnce {
 		} else {
 			System.out.println(listData.get(k - 1));
 		}
+	}
+
+	public static void main(String[] args) {
+
+		/*
+		 * Java Problem (18/20)* A distinct string is a string that is present only once
+		 * in an array. Given an array of strings arr, and an integer k, return the kth
+		 * distinct string present in arr. If there are fewer than k distinct strings,
+		 * return an empty string "". Note that the strings are considered in the order
+		 * in which they appear in the array. Example 1: Input: arr =
+		 * ["d","b","c","b","c","a"], k = 2 Output: "a" Explanation: The only distinct
+		 * strings in arr are "d" and "a". "d" appears 1st, so it is the 1st distinct
+		 * string. "a" appears 2nd, so it is the 2nd distinct string.
+		 */
+
+		String[] arr = { "d", "b", "c", "b", "c", "a" };
+		int k = 2;
+		CollectionsPresentOnlyOnce obj = new CollectionsPresentOnlyOnce();
+		obj.PresentOnce(arr, k);
 
 	}
+
 }
