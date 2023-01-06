@@ -3,13 +3,16 @@ What are Oops concept used in ur project
 -- Interface
 -- Abstraction
 -- Inhertiance
+-- Encapsulation
 
 Explain framrwork
 Cucumber
-	--Cucumber Framework in Selenium is an open-source testing framework that supports Behavior Driven Development for automation testing of web applications. The tests are first written in a simple scenario form that describes the expected behavior of the system from the user's perspective
+	--Cucumber Framework in Selenium is an open-source testing framework that supports Behavior Driven Development for automation testing of web applications.
+		The tests are first written in a simple scenario form that describes the expected behavior of the system from the user's perspective
 
 Dryrun usage
-	-- Cucumber dry run is used for compilation of the Step Definition and Feature files and to verify the compilation errors.
+	-- Cucumber dry run is used for compilation of the Step Definition and Feature files and to verify the compilation errors. 
+	-- When dryrun is false, it generates snippets so we can use that snippets in step definition
 
 Scenario outline with example
 When give single parameter do we need pipeline
@@ -24,7 +27,7 @@ Benefits of page object modal
 	Decouples your test code and page-specific code, such as locators and interactions.
 
 Hook methods
-@Before and @After
+     @Before and @After
 
 What is hook
 Hooks are blocks of code that run before or after each scenario in the Cucumber execution cycle
@@ -52,7 +55,7 @@ Frames
 --HTML document embedded inside another HTML document
 
 What is frame tag
-<frame>, <iframe>
+      -- <frame>, <iframe>
 
 How to find all broken links
 
