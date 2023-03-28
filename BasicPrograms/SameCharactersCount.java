@@ -34,6 +34,28 @@ public class SameCharactersCount {
 		}
 		System.out.println("MAP" + map);
 	}
+	
+	public void characterCountWithoutremove(String str, int distinct){
+	
+	char []arr = str.toCharArray();
+        Arrays.sort(arr);
+        String str2 = String.valueOf(arr);
+        System.out.println(str2);
+	int j = 0;
+		while (j < str.length()) {
+			for (int k = 0; k < str.length(); k++) {
+				if (str.charAt(j) == str.charAt(k)) {
+					distinct++;
+				}
+			}
+			System.out.println(str.charAt(j) + "" + distinct);
+			//String str1 = Character.toString(str.charAt(j));
+			//str = str.replaceAll(str1, "");
+			
+			
+			j=j+distinct;
+			distinct = 0;
+	}
 
 	public static void main(String[] args) {
 		String str = "kalaivanan";
