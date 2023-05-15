@@ -25,3 +25,13 @@ Annotations in PageFactory modal:
 Findby
 findbys
 findall
+
+
+Build Phases in Maven:
+Validate: Validates the project structure and configuration, ensuring it is correct and all necessary information is available.
+Compile: Compiles the source code of the project, typically located in the "src/main/java" directory, and generates compiled bytecode.
+Test: Runs unit tests against the compiled source code. The test code is typically located in the "src/test/java" directory.
+Package: Packages the compiled code and any other resources into a distributable format such as JAR, WAR, or EAR. This phase creates the final artifact of the project.
+Verify: Performs additional checks on the package to ensure its integrity and quality. It may include running integration tests or performing other verification tasks.
+Install: Installs the packaged artifact into the local Maven repository, making it available for other projects to use as a dependency.
+Deploy: Deploys the packaged artifact to a remote repository, such as a shared repository or a repository manager, making it accessible to other developers or projects.
