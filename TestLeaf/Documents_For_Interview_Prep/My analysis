@@ -1,0 +1,16 @@
+Listners: 
+In Selenium, listeners are interfaces or classes that allow you to extend the behavior of the test execution process. They provide hooks or callbacks that can be used to perform certain actions before or after specific events occur during test execution. Listeners can be used to customize the test execution flow, capture screenshots, log information, handle exceptions, and more.
+
+Here are some commonly used listeners in Selenium:
+
+WebDriverEventListener: This listener interface allows you to override methods that are called during various WebDriver events, such as before clicking an element, after finding an element, after navigating to a new page, etc. You can use this listener to customize the behavior of WebDriver actions or capture additional information during test execution.
+
+TestNG listeners: TestNG, a popular testing framework in Selenium, provides several listeners that can be used to extend the test execution process. Some commonly used TestNG listeners include:
+
+ITestListener: Provides callbacks for test-level events like test start, test success, test failure, etc.
+ISuiteListener: Allows you to perform actions before or after a TestNG suite is run.
+IInvokedMethodListener: Offers callbacks for specific test method invocations, such as before and after method execution.
+IReporter: Allows you to generate custom test reports by implementing your own report generation logic.
+EventFiringWebDriver: This class is a wrapper around WebDriver that allows you to register an instance of WebDriverEventListener. It captures WebDriver events and triggers the appropriate methods in the listener. It can be used to intercept and modify WebDriver actions or capture additional information during test execution.
+
+By implementing and utilizing these listeners, you can add custom behavior, logging, error handling, and other enhancements to your Selenium tests, making them more robust and insightful.
