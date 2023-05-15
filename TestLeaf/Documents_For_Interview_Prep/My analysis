@@ -14,3 +14,14 @@ IReporter: Allows you to generate custom test reports by implementing your own r
 EventFiringWebDriver: This class is a wrapper around WebDriver that allows you to register an instance of WebDriverEventListener. It captures WebDriver events and triggers the appropriate methods in the listener. It can be used to intercept and modify WebDriver actions or capture additional information during test execution.
 
 By implementing and utilizing these listeners, you can add custom behavior, logging, error handling, and other enhancements to your Selenium tests, making them more robust and insightful.
+
+
+
+Page factory:
+
+Page factory will come inside POM
+When elements are static page factory will be used
+Annotations in PageFactory modal:
+Findby
+findbys
+findall
