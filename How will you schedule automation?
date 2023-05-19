@@ -1,0 +1,22 @@
+How will you schedule automation?
+
+Previously, we used schedule automation from simple Jenkins jobs. Later, we are
+using Jenkins Pipeline to trigger the selenium automation tests based on the below
+3 different triggers:
+
+a) Regression test suite trigger:
+
+We have closely 500+ automated regression tests than run on every Saturday morning
+11 AM IST on 3 different browser (chrome, firefox, edge) and for 2 different data.
+This is triggered based on the time !
+
+b) Developer build trigger:
+
+About 50+ end to end sanity automated testcases run on chrome for single test data
+on every developer build published on the test environment (triggered based on
+dependency build)
+
+c) Test code commit trigger:
+
+Every time, the test automation engineer / myself pushes the code to GitHub, the
+webhook trigger all the tests based on the automation by author (my tests alone)
