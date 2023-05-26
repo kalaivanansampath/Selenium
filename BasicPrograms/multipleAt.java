@@ -18,7 +18,27 @@ public class CatString {
 		String resultReplace = result.replaceAll("c", "@");
 		return resultReplace;
 	}
-	
+
+	public static String replaceMultipleAt(String str1) {
+
+		ArrayList<String> List = new ArrayList<String>();
+		String[] strSplit = str1.split("\\s");
+		for (int i = 0; i < strSplit.length; i++) {
+			List.add(strSplit[i]);
+		}
+		
+		String result = "";
+		String at = "@";
+		for (int j = 0; j < List.size(); j++) {
+			String strList = List.get(j);
+
+			String replaceAll = strList.replaceAll("c", at);
+			at = at + "@";
+			result = result + replaceAll;
+		}
+		return result;
+	}
+
 	public static void main(String[] args) {
 
 		String str = "cat";
@@ -32,6 +52,9 @@ public class CatString {
 		String resultReplace = replaceAt(result);
 		System.out.println(resultReplace);
 
+		String resultMultipleAt = replaceMultipleAt(str1);
+		System.out.println(resultMultipleAt);
+
 		ArrayList<String> List = new ArrayList<String>();
 		String[] strSplit = str1.split("\\s");
 		for (int i = 0; i < strSplit.length; i++) {
@@ -40,10 +63,11 @@ public class CatString {
 		String at = "@";
 		for (int j = 0; j < List.size(); j++) {
 			String strList = List.get(j);
-						
+
 			String replaceAll = strList.replaceAll("c", at);
-			at =at+"@";
+			at = at + "@";
 			System.out.print(replaceAll);
 		}
 	}
 }
+
