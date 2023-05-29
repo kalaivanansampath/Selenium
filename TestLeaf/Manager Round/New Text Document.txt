@@ -1,0 +1,110 @@
+1.
+What need to be done when any issues has been occured in production environment
+
+When issues occur in a production environment, it is crucial to address them promptly to minimize any negative impact on the system or users. Here's a general outline of what needs to be done when issues arise:
+
+Identify and Verify the Issue: 
+Escalate and Notify: 
+Establish Communication Channels:
+Reproduce and Isolate:
+Mitigate Immediate Impact:
+Investigate Root Cause: 
+Develop and Test Fixes:
+Implement Fixes: 
+Monitor and Verify:
+Document and Review:.
+
+2.
+In if they are asking why you want join our officE?
+
+I'm interested in joining your office because I've done extensive research on your company and have been impressed by the innovative solutions you provide in the industry. Your office has a strong reputation for fostering a collaborative and dynamic work environment, which aligns well with my own values and work style.
+
+I am particularly drawn to the opportunities for professional growth and development that your office offers. From what I've learned, your organization actively encourages employees to take on new challenges, learn new technologies, and pursue continuous learning. This is important to me as I am always seeking ways to expand my skills and expertise.
+
+Additionally, your office has a strong focus on creating a positive impact in the community through various corporate social responsibility initiatives. Making a difference in society is something that resonates with me, and I would love to contribute my skills and knowledge to such meaningful endeavors.
+
+Furthermore, I've had the opportunity to connect with some of your current employees and have been impressed by their passion, dedication, and the strong sense of teamwork they exemplify. Joining a team with such talented and motivated individuals would not only provide an enriching work environment but also offer valuable opportunities for collaboration and learning from experienced professionals.
+
+Overall, I believe that your office is the ideal place for me to further my career aspirations, contribute to meaningful projects, and work alongside like-minded individuals who share a common drive for excellence and innovation."
+
+Remember to tailor your response to reflect your genuine interest in the specific office and organization you are applying to. Researching the company beforehand and understanding their values, mission, and culture will help you provide a more personalized and compelling answer.
+
+3.
+When faced with a critical task that needs to be completed but everyone on your team is off,
+
+Assess the Situation: Evaluate the urgency and importance of the task. Determine if it truly requires immediate attention or if it can be temporarily addressed until your team members are available.
+
+Prioritize and Plan: If the task is indeed critical and cannot be delayed, create a prioritized plan outlining the steps you need to take to complete it. Break down the task into smaller, manageable sub-tasks to ensure progress and track your efforts effectively.
+
+Seek Assistance: Reach out to colleagues from other teams or departments who may have the necessary expertise or resources to help you. Explain the situation, the importance of the task, and request their support or guidance.
+
+Utilize Available Resources: Make use of any documentation, knowledge bases, or standard operating procedures that may exist within your organization. These resources can provide guidance or reference material to aid you in completing the task.
+
+Communicate with Stakeholders: If the task involves external stakeholders or clients, communicate with them promptly about the situation. Inform them of any potential delays or alternative solutions you are exploring, and manage their expectations accordingly.
+
+Work Efficiently and Effectively: Focus on executing the task efficiently, utilizing your skills and expertise. Break down the work into smaller milestones, if possible, to track progress and maintain motivation. Prioritize key aspects and address them first to ensure the most critical elements are completed.
+
+Document Your Actions: Keep a record of the steps you took, decisions made, and any significant findings or outcomes throughout the process. This documentation will be valuable for sharing updates with your team when they return and for future reference.
+
+Plan for Follow-up: If you are unable to fully complete the task due to dependencies on your team members, ensure you have a plan in place to hand off the work or communicate the progress to them when they return. This will help them seamlessly pick up where you left off.
+
+Communicate the Resolution: Once you have completed the critical task or made significant progress, inform relevant stakeholders, such as your manager or clients, about the resolution or current status. Update them on the actions taken and any outstanding aspects that require attention when your team members are back.
+
+Remember, it's essential to communicate with your team and manager as soon as they are available to ensure a smooth transition and provide any necessary updates. Collaboration and effective communication play a vital role in handling critical tasks when team members are unavailable.
+
+4. How do you ensure that projects are delivered on time and within budget?
+
+Thorough project planning
+Resource Allocation
+Risk Assessment and Mitigation
+Effective communiocation and Collabration
+Regular monitoring and Tracking
+Agile Project management
+Change Management( Implement a structured change management process to handle any changes or scope modifications that may arise during the project. Evaluate the impact of these changes on the project timeline and budget, and communicate any adjustments to stakeholders.)
+Documentation and Leassons Learned
+
+5.
+How do you prioritize tasks and allocate resources within your team?
+
+Remember, effective task prioritization and resource allocation require a balance between project objectives, team capacity, and stakeholder expectations. Flexibility, open communication, and ongoing collaboration within the team are key to successfully managing task prioritization and resource allocation in a dynamic environment.
+
+Define Project Goals and Objectives: 
+Identify and Evaluate Tasks: 
+Assess Resource Availability and Skills:
+Prioritization Criteria: 
+Collaborative Decision-Making:
+Communicate Expectations: 
+Monitor and Adjust: 
+Regularly Review and Refine:
+
+6.How do you approach managing a team of technical professionals?
+Effective management is a continuous process of learning and improvement. Adapt your approach based on the unique needs and dynamics of your team, and be open to feedback and suggestions from team members.
+
+Build Relationships:
+Lead by Example:
+Provide Clear Direction and Goals: 
+Support Professional Development:
+Foster Collaboration and Communication:
+Empower and Delegate(Delegate tasks and responsibilities based on team members' skills and expertise. Provide autonomy and trust in their abilities to complete assignments. )
+Recognize and Reward Performance:
+Manage Challenges and Conflicts: 
+Support Work-Life Balance: 
+Stay Connected with Technology: 
+
+7.
+Can you provide an example of a time when you had to make a difficult decision as a QA Senior member? How did you handle it, and what was the outcome?
+
+8.
+WHen you consider the product is ready for release?
+
+Meeting functional requirements
+Quality assurance:
+Stability and performance:
+User acceptance testing: 
+Compliance and regulatory requirements:
+Documentation and support materials: 
+Stakeholder alignment: 
+
+
+
+
