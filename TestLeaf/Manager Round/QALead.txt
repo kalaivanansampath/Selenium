@@ -1,0 +1,45 @@
+What is Tracebility matrix
+
+A traceability matrix is a document that establishes a link between requirements, test cases, and other related artifacts. It provides a way to track and ensure that all requirements are adequately addressed by the corresponding test cases. The purpose of a traceability matrix is to establish traceability or coverage between different elements of the software development lifecycle, such as business requirements, system requirements, design documents, test cases, and defects.
+
+Here's how a traceability matrix typically works:
+Requirements: T
+Test Cases: 
+Traceability: The matrix visually displays the traceability links between requirements and test cases. 
+Coverage Analysis: The traceability matrix allows stakeholders to analyze the coverage of test cases against requirements. It provides visibility into which requirements have been tested, which ones are pending, and any areas that may require additional testing.
+Change Impact Analysis: When changes are made to requirements, the traceability matrix helps identify the potential impact on test cases. By reviewing the matrix, you can determine which test cases may need to be updated or created to address the modified requirements.
+Defect Tracking: The traceability matrix can also be used to track defects or issues discovered during testing. Defects are linked to the specific test cases and requirements affected by the problem, providing a clear view of the impact and progress of defect resolution.
+By maintaining a traceability matrix, teams can ensure comprehensive test coverage, maintain alignment between requirements and test cases, track progress, and facilitate effective communication among stakeholders. It helps in improving the transparency, reliability, and quality of the software development and testing process.
+
+Test Closure Report:
+A test closure report, also known as a test summary report, is a document prepared at the end of the testing phase or project. It provides a summary and evaluation of the testing activities performed, the results obtained, and the overall quality of the system under test. The test closure report serves as a formal record and communication tool for stakeholders, providing an overview of the testing effort and its outcomes.
+
+Introduction: 
+Testing Scope: 
+Test Execution Summary: 
+Test Results: 
+Test Coverage: (e.g., functional, performance, security) 
+Test Effort and Schedule: 
+Lessons Learned: 
+Conclusion and Recommendations: 
+
+Test Strategy:
+Test strategy is a high-level document that outlines the approach and guidelines for testing a software system or application. It provides an overall plan and direction for the testing process, guiding the testing team in their efforts to ensure the quality and reliability of the software being developed. The test strategy document is typically created during the early stages of a project and serves as a reference throughout the testing lifecycle.
+
+Here are the key components typically included in a test strategy:
+
+Objective:
+Scope: 
+Testing Approach: The document describes the overall testing approach, including the types of testing to be performed, such as functional testing, performance testing, security testing, and usability testing. 
+Test Levels: The test strategy defines the different levels of testing to be performed, such as unit testing, integration testing, system testing, and acceptance testing. It describes how each level of testing will be conducted and the responsibilities of the testing team at each level.
+Test Techniques and Methods: It outlines the specific techniques and methods that will be used for testing, such as black-box testing, white-box testing, boundary value analysis, equivalence partitioning, and error guessing.
+Test Environment: The test strategy document specifies the required test environments, including hardware, software, operating systems, databases, network configurations, and any other dependencies necessary for testing.
+Test Data Management: It describes how test data will be identified, created, and managed throughout the testing process. This includes both positive and negative test data, as well as any data privacy or security considerations.
+Test Deliverables: It lists the test deliverables that will be produced during testing, such as test plans, test cases, test scripts, test data, test reports, and any other documentation required.
+Test Schedule and Milestones: The document outlines the test schedule, including key milestones and timelines for different testing activities. It helps in coordinating testing efforts with other project activities and stakeholders.
+Test Team and Roles: It defines the roles and responsibilities of the testing team members, including testers, test leads, test managers, and any other stakeholders involved in the testing process.
+Risks and Mitigation: The test strategy identifies potential risks and challenges associated with testing and outlines strategies for mitigating those risks. It
+
+
+test artifacts
+test artifacts refer to the various documents, files, and deliverables created during the testing process. These artifacts serve as evidence of the testing activities and provide documentation of the test process, test results, and any associated information.
