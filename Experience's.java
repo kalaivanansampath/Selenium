@@ -1,3 +1,18 @@
+public void click(WebElement ele) {
+		String text = "";
+		try {
+			wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+			wait.until(ExpectedConditions.elementToBeClickable(ele));
+			text = ele.getText();
+			ele.click();
+			reportStep("The Element " + text + " clicked", "pass");
+		} catch (StaleElementReferenceException e) {
+			reportStep("The Element " + text + " could not be clicked", "fail");
+			throw new RuntimeException();
+		}
+	}
+
+
 What are Oops concept used in ur project
 -- Polymorphism
 -- Interface
