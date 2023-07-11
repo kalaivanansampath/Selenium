@@ -1,0 +1,41 @@
+ What have you done still now as part of your IT experience?
+2. Do you know OOPs concepts and in a framework where and how you have implemented it?
+3. Can we declare a private class?
+4. What is the difference between == and equals?
+5. How is the string immutable?
+6. Where strings get stored and where does the reference get stored?
+7. Can you please explain with reference the memory location of how the string is immutable?
+8. If you don't want to use the String class then what can be used?
+9. Difference between String and StringBuffer.
+10. What collections have you used?
+11. Have you used HashMap?
+12. List declaration?
+13. Where is the Set used?
+14. You have an application like Flipkart and you want to buy a pen, so you have added that item two times to the cart using an add to cart button, but in the cart, only one entry for an item should be displayed with quantity as 2, so how you’ll test this?
+15. I have a table and want to store all table data Then which collection should be used and why?
+16. What HashMap will return?
+17. How to achieve inheritance without having an interface?
+18. Method overloading and method overriding? Where used in the framework?
+19. If I want that my class should not be extended and the instance cannot be created by other classes then how to declare class?
+20. How to store multiple values in one reference?
+21. In cucumber, in which class you have glue, how many classes for glue, and what was the program line limit for the class?
+22. How to find a missing implementation in Cucumber?, Used static data or dynamic data, what was the approach?
+23. How to resolve conflicts while pushing code in Git?
+24. Difference between QTP and Selenium (advantages and disadvantages).
+25. How can we achieve parallel execution.
+26. Running multiple tests for the same browser
+27. Running tests on different browsers
+28. Difference between Throw and Throws.
+29. If an exception is declared in throws and if an exception is encountered what will happen?
+30. Difference between try/catch block and throws.
+31. Explain different waits in Selenium.
+32. Which wait is better?
+33. The syntax for the implicit wait.
+34. What does the driver.manage() do?
+35. Database testing using Selenium.
+36. How will you establish a connection using a JDBC driver?
+37. How do you fire queries while using JDBC?
+38. Difference between Class and Instance variables.
+39. Concept of Selenium Grid.Multiple nodes and errors.
+40. How to find the horizontal and vertical position of an element without Javascript Executor.
+41. How does hashmap work?
