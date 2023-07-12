@@ -1,0 +1,34 @@
+Data Structures and OOPS concepts used in automation frameworks:
+
+1. Maps: Used to store and retrieve data from unique keys. Like storing config settings - browser type, URL, timeout, etc, test data in key value pairs like credentials and HTTP headers like Content-Type and Authorization and parameters. Also, creating payload body for POST/PUT calls.
+Ex: Headers
+Map<String, String> map = new HashMap<>();
+map.put("Content-Type", "application/json");
+map.put("Authorization", "test123");
+Request Body
+Map<String, Object> body = new HashMap<>();
+body.put("name", "Test");
+body.put("age", 20);
+
+2. List - Storing test data, parameters and results from webElements. Using findElements we get list of webElements.
+Ex: List<WebElement> elements = driver.findElements(By.name("test"));
+
+3. Set - Using getWindowHandles() that returns set of strings. Can store values from webElements in set to remove duplicates and perform actions on unique elements.
+
+4. Queues - If needed to execute test cases in a specific sequence, having queue of test case names and use them in specific order. FIFO order.
+
+5. Stacks - LIFO order. Retrieving most recently added elements. Pushing URLs to stack and popping when navigating backwards.
+
+6. Linked List - To create chain or specific order for steps to be performed
+
+7. Trees - Can be used to show test execution flow where each node is test case and child nodes are dependent or requisite test cases so that dependent test cases executed in correct order
+
+8. Graph - To have complex structure of relation between test cases, test data and web pages. To have navigation paths between different web pages to traverse through various pages.
+
+9. Encapsulation - Private data members, public methods. Used in POJO for serialisation and deserialisation of JSON in API automation where private variables and public setter and getter methods there. Also, used in Page Object Model where webElements are private and page object methods are public where actions on webElements performed.
+
+10. Inheritance - Base Test class there contain common setup like authentication, endpoints, driver initialisation, initialise property files, launch browsers, browser close and utility methods. Other test classes inherit from base class using extends.
+
+11. Polymorphism - Overloading and overriding. Implicit wait an example of overloading - Seconds, minutes or hours. Assert class TestNG is overloading.
+
+12. Abstraction - WebDriver driver = new ChromeDriver() uses WebDriver as an interface creating reference variable of interface and creating object of ChromeDriver. Having abstract method in abstract base page or test class then child classes have to implement abstract classes. SearchContext, WebDriver, TakesScreenshot, JavascriptExecutor, WebElement are interfaces in Selenium.
