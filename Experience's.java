@@ -121,3 +121,8 @@ How to verify button color
       System.out.println("Color is :" + s);
       System.out.println("Hex code for color:" + c);
  -- https://github.com/kalaivanansampath/Selenium/blob/main/SeleniumPrograms/VerifyColor.java
+
+
+How to Handle SSL Certificate Errors in Selenium?
+ChromeOptions options = new ChromeOptions();
+options.setAcceptinsecureCerts(true);
