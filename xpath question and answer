@@ -1,0 +1,21 @@
+1. //𝐢𝐧𝐩𝐮𝐭[@𝐢𝐝='𝐮𝐬𝐞𝐫𝐧𝐚𝐦𝐞'] - Selects an input element with the attribute "id" equal to "username".
+
+2. //𝐢𝐧𝐩𝐮𝐭[@𝐭𝐲𝐩𝐞='𝐬𝐮𝐛𝐦𝐢𝐭' 𝐚𝐧𝐝 @𝐯𝐚𝐥𝐮𝐞='𝐒𝐢𝐠𝐧 𝐈𝐧'] - Selects an input element with the attribute "type" equal to "submit" and the attribute "value" equal to "Sign In".
+
+3. //𝐢𝐧𝐩𝐮𝐭[@𝐭𝐲𝐩𝐞='𝐬𝐮𝐛𝐦𝐢𝐭' 𝐨𝐫 @𝐯𝐚𝐥𝐮𝐞='𝐒𝐢𝐠𝐧 𝐈𝐧'] - Selects an input element with either the attribute "type" equal to "submit" or the attribute "value" equal to "Sign In".
+
+4. //𝐢𝐧𝐩𝐮𝐭[𝐧𝐨𝐭(@𝐯𝐚𝐥𝐮𝐞='𝐒𝐢𝐠𝐧 𝐈𝐧')] - Selects all input elements that do not have the attribute "value" equal to "Sign In".
+
+5. //𝐢𝐧𝐩𝐮𝐭[𝐬𝐭𝐚𝐫𝐭𝐬-𝐰𝐢𝐭𝐡(@𝐢𝐝, '𝐮𝐬𝐞𝐫')] - Selects all input elements with an attribute "id" that starts with "user".
+
+6. //𝐢𝐧𝐩𝐮𝐭[𝐜𝐨𝐧𝐭𝐚𝐢𝐧𝐬(@𝐢𝐝, '𝐧𝐚𝐦𝐞')] - Selects all input elements with an attribute "id" that contains the string "name".
+
+7. //𝐢𝐧𝐩𝐮𝐭[𝐞𝐧𝐝𝐬-𝐰𝐢𝐭𝐡(@𝐢𝐝, '𝐧𝐚𝐦𝐞')] - Selects all input elements with an attribute "id" that ends with "name".
+
+8. //𝐢𝐧𝐩𝐮𝐭[𝐭𝐞𝐱𝐭()='𝐒𝐢𝐠𝐧 𝐈𝐧'] - Selects all input elements with text content equal to "Sign In".
+
+9. //𝐢𝐧𝐩𝐮𝐭[𝐜𝐨𝐧𝐭𝐚𝐢𝐧𝐬(𝐭𝐞𝐱𝐭(), '𝐈𝐧')] - Selects all input elements with text content that contains the string "In".
+
+10. //𝐢𝐧𝐩𝐮𝐭[𝐬𝐭𝐚𝐫𝐭𝐬-𝐰𝐢𝐭𝐡(𝐭𝐞𝐱𝐭(), '𝐒𝐢𝐠𝐧')] - Selects all input elements with text content that starts with "Sign".
+
+11. //𝐢𝐧𝐩𝐮𝐭[𝐞𝐧𝐝𝐬-𝐰𝐢𝐭𝐡(𝐭𝐞𝐱𝐭(), '𝐈𝐧')] - Selects all input elements with text content that ends with "In".
