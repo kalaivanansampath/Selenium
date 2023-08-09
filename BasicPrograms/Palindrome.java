@@ -32,7 +32,16 @@ public class Palindrome {
 	
 	return false;}
 	}
-
+	
+	public static String reverse(String s)
+		{
+		String rev="";
+		for(int j=s.length();j>0;--j)
+		{
+		rev=rev+(s.charAt(j-1)); 
+		}
+	return rev;
+	}
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter a word or phrase: ");
