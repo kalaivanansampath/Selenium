@@ -60,6 +60,26 @@ public class StringDoubleReverse {
 		}
 
 	}
+	
+	
+
+	public static void ReveresewithoutCollection(String str) {
+
+		String[] strSplit = str.split("\\s");
+		int strLength = strSplit.length;
+		
+		System.out.println();
+		for (int j = 0; j < strLength; j++) {
+			String s = strSplit[j];
+			String rev1 = "";
+			for (int j1 = s.length(); j1 > 0; --j1) {
+				rev1 = rev1 + (s.charAt(j1 - 1));
+			}
+			
+			System.out.print(rev1 + " ");
+		}
+
+	}
 
 	public static void main(String[] args) {
 		String str = "This is kalaivanan";
@@ -68,6 +88,7 @@ public class StringDoubleReverse {
 		RevereseSingleString(str);
 		RevereseMinus(str);
 		Reverese(str);
+		ReveresewithoutCollection(str);
 
 	}
 
