@@ -15,6 +15,7 @@ public class WebTable {
 
 	public static void main(String[] args) {
 		EdgeDriver driver2 = new EdgeDriver();
+		WebDriver driver = new ChromeDriver();
 
 		driver2.get("https://erail.in/");
 
